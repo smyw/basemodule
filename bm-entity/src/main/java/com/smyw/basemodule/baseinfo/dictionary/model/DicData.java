@@ -32,11 +32,7 @@ public class DicData {
      * optional:是否可选,外键是否允许为空
      * JoinColumn:指定外键名
      *
-     *//*
-    @ManyToOne(cascade={CascadeType.REFRESH},fetch=FetchType.LAZY,optional=false)
-    @NotEmpty(message = "字典类型不能为空")
-    @ApiModelProperty(value = "字典类型")
-    private DicType type;*/
+     */
     @Column
     @NotEmpty(message = "关联类型ID不能为空")
     @ApiModelProperty(value = "关联类型ID")
