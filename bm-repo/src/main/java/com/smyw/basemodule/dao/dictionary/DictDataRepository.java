@@ -1,6 +1,6 @@
-package com.smyw.basemodule.baseinfo.dictionary.dao;
+package com.smyw.basemodule.dao.dictionary;
 
-import com.smyw.basemodule.baseinfo.dictionary.model.DicData;
+import com.smyw.basemodule.common.model.dictionary.DicData;
 import com.smyw.core.repo.base.BaseRepository;
 import org.springframework.data.jpa.repository.Query;
 

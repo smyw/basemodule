@@ -22,13 +22,11 @@
 		<dependency>
 			<groupId>com.smyw</groupId>
 			<artifactId>bm-service</artifactId>
-			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.smyw</groupId>
-			<artifactId>bm-entity</artifactId>
-			<version>${project.version}</version>
+			<artifactId>bm-common</artifactId>
 		</dependency>
 
 		<dependency>

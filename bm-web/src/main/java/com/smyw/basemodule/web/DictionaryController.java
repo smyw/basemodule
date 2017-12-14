@@ -1,7 +1,7 @@
 package com.smyw.basemodule.web;
 
-import com.smyw.basemodule.baseinfo.dictionary.model.DicType;
-import com.smyw.basemodule.baseinfo.dictionary.service.DictionaryService;
+import com.smyw.basemodule.common.model.dictionary.DicType;
+import com.smyw.basemodule.service.dictionary.DictionaryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

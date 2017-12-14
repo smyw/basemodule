@@ -1,6 +1,6 @@
-package com.smyw.basemodule.baseinfo.dictionary.dao;
+package com.smyw.basemodule.dao.dictionary;
 
-import com.smyw.basemodule.baseinfo.dictionary.model.DicType;
+import com.smyw.basemodule.common.model.dictionary.DicType;
 import com.smyw.core.repo.base.BaseRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,4 +1,4 @@
-package com.smyw.basemodule.baseinfo.dictionary.model;
+package com.smyw.basemodule.common.model.dictionary;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

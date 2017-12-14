@@ -26,7 +26,7 @@
 		<module>bm-web</module>
 		<module>bm-service</module>
 		<module>bm-repo</module>
-		<module>bm-entity</module>
+		<module>bm-common</module>
 	</modules>
 
 	<!-- 版本说明：这里统一管理依赖的版本号 -->
@@ -49,7 +49,7 @@
 			</dependency>
 			<dependency>
 				<groupId>com.smyw</groupId>
-				<artifactId>bm-entity</artifactId>
+				<artifactId>bm-common</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 		</dependencies>

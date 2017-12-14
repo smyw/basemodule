@@ -1,8 +1,8 @@
-package com.smyw.basemodule.baseinfo.dictionary.service;
+package com.smyw.basemodule.service.dictionary;
 
-import com.smyw.basemodule.baseinfo.dictionary.dao.DictDataRepository;
-import com.smyw.basemodule.baseinfo.dictionary.dao.DicTypeRepository;
-import com.smyw.basemodule.baseinfo.dictionary.model.DicType;
+import com.smyw.basemodule.dao.dictionary.DictDataRepository;
+import com.smyw.basemodule.dao.dictionary.DicTypeRepository;
+import com.smyw.basemodule.common.model.dictionary.DicType;
 import com.smyw.core.api.DictionaryComService;
 import com.smyw.core.api.model.DictionaryData;
 import com.smyw.core.api.model.DictionaryType;
@@ -13,7 +13,6 @@ import com.smyw.core.repo.specification.SpecificationOperator;
 import com.smyw.core.service.BaseService;
 import com.smyw.core.utils.BeanUtils;
 import com.smyw.core.utils.LogUtils;
-import io.swagger.annotations.ApiModelProperty;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;

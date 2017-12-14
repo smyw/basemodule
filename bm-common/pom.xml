@@ -5,10 +5,10 @@
 
 	<!-- 基本信息 -->
 	<groupId>com.smyw</groupId>
-	<artifactId>bm-entity</artifactId>
+	<artifactId>bm-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>bm-entity</name>
+	<name>bm-common</name>
 
 	<!-- 继承本项目的父工程 -->
 	<parent>

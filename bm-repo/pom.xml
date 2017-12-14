@@ -21,7 +21,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.smyw</groupId>
-			<artifactId>bm-entity</artifactId>
+			<artifactId>bm-common</artifactId>
 		</dependency>
 
 		<dependency>
